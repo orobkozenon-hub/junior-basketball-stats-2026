@@ -1,6 +1,6 @@
 // ---- Data source ----
 // Option A (default): local CSV file in this repo
-const CSV_URL = "./data/player_game_stats_long.csv";
+const CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQKXn9XNnhSp0aj8M0cjleJxy8CoLFUvlU3SJxDMvGWa9rcH1r38_YQE9a86twDKJqU0lu-iaeELYYZ/pub?gid=416213007&single=true&output=csv";
 
 // Option B: Google Sheets published CSV (recommended for always-up-to-date)
 // 1) In Google Sheets: File -> Share -> Publish to web -> choose your LONG tab -> CSV

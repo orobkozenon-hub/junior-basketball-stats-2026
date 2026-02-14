@@ -3,7 +3,8 @@
 // Option B: Google Sheets published CSV (recommended for always-up-to-date)
 // 1) In Google Sheets: File -> Share -> Publish to web -> choose your LONG tab -> CSV
 // 2) Paste the published CSV URL here and comment out Option A above.
-const CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQKXn9XNnhSp0aj8M0cjleJxy8CoLFUvlU3SJxDMvGWa9rcH1r38_YQE9a86twDKJqU0lu-iaeELYYZ/pub?gid=416213007&single=true&output=csv";
+const CSV_URL = "https://api.allorigins.win/raw?url=" + 
+  encodeURIComponent("https://docs.google.com/spreadsheets/d/e/2PACX-1vQKXn9XNnhSp0aj8M0cjleJxy8CoLFUvlU3SJxDMvGWa9rcH1r38_YQE9a86twDKJqU0lu-iaeELYYZ/pub?gid=416213007&single=true&output=csv");
 
 let table = null;
 
